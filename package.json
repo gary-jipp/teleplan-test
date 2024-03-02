@@ -1,0 +1,17 @@
+{
+  "name": "teleplan-test",
+  "version": "1.0.0",
+  "description": "Teleplan End to End Testing",
+  "main": "",
+  "scripts": {
+    "cypress:test": "cypress run ",
+    "cypress": "cypress open --e2e"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.1",
+    "cypress-delete-downloads-folder": "^0.0.4"
+  }
+}
