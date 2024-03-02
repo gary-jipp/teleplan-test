@@ -8,11 +8,11 @@ To run these tests:
 - Make sure you have correct data or tests will fail
 - Note: `cypress.env.json` is not saved in git and its entries can be overridden by the OS environment
 
-## Run on Computer as container (Linux or Windows WSL2)
+### Run on Computer as container (Linux or Windows WSL2)
 - docker or podman must be installed
 - `test.sh` (first run will download cypress image)
 
-## Run on Computer with NPM (Linux or Windows WSL2)
+### Run on Computer with NPM (Linux or Windows WSL2)
 - node.js must be installed on system
 - install & run the tests
 ```
@@ -26,7 +26,7 @@ To open the Cypress GUI to view/edit/run tests interactively
 npm run cypress
 ```
 
-## Test Config `cypress.env.json`
+### Test Config `cypress.env.json`
 ```
 {
   "version": "4.2.8",
