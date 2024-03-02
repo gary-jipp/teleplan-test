@@ -5,6 +5,7 @@ describe('template spec', () => {
 
   beforeEach(() => {
     cy.visit(baseUrl + "/");
+    cy.get('a[target$="_blank"]').contains('Contact us');
   });
 
 

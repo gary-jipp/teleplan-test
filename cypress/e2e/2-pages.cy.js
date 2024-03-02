@@ -28,7 +28,7 @@ describe('template spec', () => {
     cy.get('a[href$="Jcopyright"]').contains('Copyright');
     cy.get('a[href$="Jdisclaimer"]').contains('Disclaimer');
     cy.get('a[href$="privacy.html"]').contains('Privacy');
-    cy.get('a[href$="Jcontacts"]').contains('Contact us');
+    cy.get('a[target$="_blank"]').contains('Contact us');
   });
 
   afterEach(() => {
