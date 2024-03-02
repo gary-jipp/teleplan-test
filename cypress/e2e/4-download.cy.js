@@ -25,7 +25,7 @@ describe('Tests for File Download functions', () => {
     cy.get('input[name="username"]');
   });
 
-  it('downloads a complete Remittance file', () => {
+  it('downloads a Remittance file', () => {
     cy.get('input[type="radio"]').first().check();
     cy.get('input[type="submit"]').click();
 
