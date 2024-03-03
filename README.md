@@ -14,7 +14,8 @@ To run these tests:
 
 ### Run on Computer with NPM (Linux or Windows WSL2)
 - node.js must be installed on system
-- install & run the tests
+
+Install & run the tests
 ```
 npm install
 npm test
