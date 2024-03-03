@@ -18,8 +18,6 @@ To run these tests:
 ```
 npm install
 npm test
-or
-npm run cypress  # for GUI interactive
 ```
 To open the Cypress GUI to view/edit/run tests interactively
 ```
